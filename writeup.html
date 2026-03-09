@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="theme-picker">
+        <button class="theme-picker-btn" onclick="toggleThemePicker()">&#9790;</button>
+        <div class="theme-picker-dropdown">
+            <div class="theme-swatch" data-theme="saddle" onclick="setTheme('saddle')" title="Saddle"></div>
+            <div class="theme-swatch" data-theme="light" onclick="setTheme('light')" title="Light"></div>
+            <div class="theme-swatch" data-theme="dark" onclick="setTheme('dark')" title="Dark"></div>
+            <div class="theme-swatch" data-theme="ocean" onclick="setTheme('ocean')" title="Ocean"></div>
+            <div class="theme-swatch" data-theme="forest" onclick="setTheme('forest')" title="Forest"></div>
+            <div class="theme-swatch" data-theme="lavender" onclick="setTheme('lavender')" title="Lavender"></div>
+        </div>
+    </div>
     <h1>Write-Ups</h1>
     
     <div class="topics">
